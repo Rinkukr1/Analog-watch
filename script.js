@@ -17,6 +17,8 @@ function showDate(){
     min.style.transform=`rotate(${minRotate}deg)`;
     sec.style.transform=`rotate(${secRotate}deg)`
 
+    let audio=new Audio('audio/audio.mp3');
+    audio.play();
 }
 
 setInterval(showDate,1000);
